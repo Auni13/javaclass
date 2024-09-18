@@ -1,5 +1,5 @@
 package controllers;
 
-public class controllers {
+public class controllers1 {
     
 }
