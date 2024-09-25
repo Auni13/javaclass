@@ -80,8 +80,8 @@ public class EmployeeSalary{
         employees[2] = new EmployeeSalary("Hanis", 3500, 350, 350);
         employees[3] = new EmployeeSalary("Dina", 5500, 500, 500);
 
-        System.out.println(employees[6]);
-        
+        System.out.println(employees[6]);  
+
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Caught bad " + e.getMessage());
         }finally{
@@ -89,7 +89,7 @@ public class EmployeeSalary{
         }
             
 
-        //Display information for each student
+       // Display information for each student
         System.out.println("\nEmployee Salary:");
         for (int i=0; i<employees.length; i++) {
             System.out.println("Name: " + employees[i].getName());
@@ -103,3 +103,7 @@ public class EmployeeSalary{
     }
     
 }
+
+
+// git pull (link repo)
+// git stash
